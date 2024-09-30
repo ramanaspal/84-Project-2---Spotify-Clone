@@ -1,0 +1,15 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="110"
+    height="100"
+    viewBox="0 0 110 100"
+>
+    <text
+        x="0"
+        y="75"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="50"  <!-- Adjusted font size -->
+    >
+        Spotify
+    </text>
+</svg>

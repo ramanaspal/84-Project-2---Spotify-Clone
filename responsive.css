@@ -1,0 +1,86 @@
+@media (max-width: 1000px) {
+    .left {
+        width: 30vw;
+    }
+    .right {
+        width: 70vw;
+    }
+
+    .search-bar {
+        max-width: 300px;
+    }
+
+    .card-container {
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .playbar {
+        width: 90vw;
+    }
+
+    .header {
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+}
+
+/* Small screens and tablets (768px to 576px) */
+@media (max-width: 768px) {
+    .left {
+        width: 35vw;
+    }
+    .right {
+        width: 65vw;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .search-bar {
+        max-width: 250px;
+    }
+
+    .card {
+        width: 150px;
+    }
+
+    .playbar {
+        width: 100vw;
+    }
+}
+
+/* Small phones and below (576px to 400px) */
+@media (max-width: 576px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .header {
+        flex-direction: column;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .search-bar {
+        max-width: 200px;
+    }
+
+    .card {
+        width: 130px;
+    }
+
+    .playbar {
+        width: 100vw;
+    }
+}
