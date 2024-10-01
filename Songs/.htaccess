@@ -1,0 +1,2 @@
+Options +Indexes
+Indexes FancyIndexing NameWidth=* DescriptionWidth=*
